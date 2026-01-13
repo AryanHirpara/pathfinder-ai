@@ -15,6 +15,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
+    metadataBase: new URL('https://pathfinder-ai-tau.vercel.app'),
     title: 'PathFinder AI – Career Companion for Students',
     description: 'Your compassionate AI career mentor. Get personalized career guidance, discover your strengths, and find the perfect path for your future.',
     keywords: ['career guidance', 'student mentor', 'career counseling', 'India', 'class 12', 'career advice'],
